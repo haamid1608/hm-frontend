@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="netflix.css">
+
     <title>Netflix table</title>
 </head>
 
@@ -49,7 +50,10 @@
             </tr>
         </table>
     </div>
-    <div class="table-name text-alignment int-plan">INTERNATIONAL PLANS</div>
+    <div class="table-name text-alignment int-plan update-text">INTERNATIONAL PLANS</div>
+    <div class="btn-update-wrapper">
+        <button class="js-trial-btn">Please click here</button>
+    </div>
     <div class="card-wrapper">
         <div class="london-plan">
             <img class="card-img" src="Capture.PNG" alt="london-view">
@@ -170,7 +174,8 @@
                     </div>
                     <div class="file">
                         <div class="upload-file-text">Upload File</div>
-                        <input class="browse-btn" type="file" name="file-name" id="file-name" placeholder="Browse..." data-buttonText="Browse..." >
+                        <input class="browse-btn" type="file" name="file-name" id="file-name" placeholder="Browse..."
+                            data-buttonText="Browse...">
                     </div>
                 </div>
             </div>
@@ -181,6 +186,13 @@
         </div>
     </div>
     <div class="footer text-alignment">Developed by Haamid Majoria</div>
+
+
+
+
+
+    <!-- Script -->
+    <script src="netflix.js"></script>
 </body>
 
 </html>

@@ -82,6 +82,13 @@ tr:nth-child(odd){
 .int-plan{
     padding-bottom: 20px;
 }
+
+.btn-update-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
 .card-wrapper{
     display: flex;
     justify-content: space-between;
