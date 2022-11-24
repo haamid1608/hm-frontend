@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("background.jpg");
+    /* background-repeat: no-repeat; */
+}
+.table-name{
+    /* border: 1px solid green; */
+    color: white;
+    font-size: 80px;
+    padding-top: 40px;
+    font-weight: bold;
+}
+.table-desc-wrapper{
+    /* border: 1px solid white; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.table-desc{
+    /* border: 1px solid orange; */
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    text-align: justify;
+}
+
+.text-alignment{
+    text-align: center;
+    color: white;
+}
+.content-wrapper-table{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+table, th, tr, td{
+    border: 1px dotted white;
+    color: white;
+    border-collapse: collapse;
+}
+
+td{
+    width: 250px;
+}
+.netflix-table{
+    /* border: 0.5px solid yellow; */
+    height: 400px;
+    margin: 20px 0px;
+}
+
+.table-headers{
+    /* border: 1px solid blue; */
+}
+tr:nth-child(even) {
+    background: #181818;
+  }
+
+tr:nth-child(odd){
+    background: #323232;
+}
+
+.plan1{
+    background-color: #e68185;
+}
+
+.plan2{
+    background-color: #db525a;
+}
+
+.plan3{
+    background-color: #d02243;
+}
+
+.footer{
+    /* border: 1px solid white; */
+}
+
+.int-plan{
+    padding-bottom: 20px;
+}
+
+.btn-update-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid yellow; */
+    width: 70%;
+    align-items: center;
+
+    margin: 0 auto;
+}
+.london-plan{
+    /* border: 1px solid red; */
+    width: 300px;
+    /* height: 500px; */
+    border-radius: 15px;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    display: block;
+}
+
+.card-content{
+    background: white;
+}
+
+.plan-name{
+    padding: 20px 0px 10px 0px;
+    text-align: center;
+    color: red;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.plan-country{
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.plan-details{
+    padding: 0px 25px 20px 25px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.plan-users-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #fc0e70;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 20px;
+}
+
+.plan-postpaid, .plan-prepaid{
+    border-right: 1px solid black;
+}
+
+.plan-postpaid,.plan-prepaid, .plan-lan{
+    width: 33.33% ;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+.wrapper{
+    /* border: 1px solid aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.content-wrapper{
+    /* border: 1px solid blue; */
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    background-color: #323232;
+    opacity: 0.9;
+}
+
+.form-head-wrapper{
+    /* border: 1px solid green; */
+    height: 55px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.form-name{
+    /* border: 1px solid black; */
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color:#fc0e70;
+    padding-bottom: 10px;
+}
+
+.form-detail{
+    /* border: 1px solid violet; */
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.details-wrapper{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 400px;
+}
+
+.basic-details{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+}
+
+.input-fields{
+    height: 30px;
+    width: 400px;
+}
+
+.more-details{
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    width: 400px;
+    margin-top: 30px;
+}
+
+.gender{
+    margin-top: 20px;
+}
+
+.label-fields{
+    color: white;
+}
+.male-div{
+    padding-bottom: 15px;
+}
+
+.card{
+    margin-top: 20px;
+}
+
+.file{
+    margin-top: 20px;
+}
+
+.f-digits{
+    width: 70px;
+    height: 25px;
+}
+
+.m-digits{
+    width: 120px;
+}
+
+.l-digits{
+    width: 45px;
+}
+.gender-input{
+    /* border: 1px solid chartreuse; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.gender-text{
+    font-weight: bold;
+    color: #ed1870;
+}
+
+.card-id-wrapper{
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 0px;
+    margin-right: 130px;
+}
+
+.card-id-text{
+    font-weight: bold;
+    color: #ed1870;
+}
+
+.upload-file-text{
+    font-weight: bold;
+    color: #ed1870;
+}
+
+.browse-btn{
+    padding: 10px 0px;
+}
+
+.submit-btn{
+    color: white;
+    background-color: #ed1870;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+.submit-btn:hover{
+    cursor: pointer;
+    font-size: 23px;
+}
